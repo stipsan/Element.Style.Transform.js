@@ -24,7 +24,7 @@ How to Use
 	        .get('transform');           // Returns 'scale(2)'
 			
 	$('box').setTransform('rotate(15deg)')
-	        .getTransform();              // Returns 'scale(2)'
+	        .getTransform();              // Returns 'rotate(15deg)'
 			
 `$('box').getStyle('transform');` unfortunately does not work. Neither does setStyle.
 I haven't found a way to extend those methods to make it work cross browser engine yet.
