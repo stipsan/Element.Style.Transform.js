@@ -4,6 +4,8 @@ Element.Style.Transform
 Provides a cross browser way of letting you use the CSS3 transform property. 
 Inspired by http://github.com/zachstronaut/jquery-css-transform
 
+![Screenshot](http://s3.amazonaws.com/ember/LBO52pd4G2TEC7xnC1vWWigoE0PozCjG_o.png)
+
 
 IE support isn't there yet
 --------------------------
