@@ -31,6 +31,6 @@ I haven't found a way to extend those methods to make it work cross browser engi
 So with those, you'll have to use the correct browser vendor prefixes.
 
 	#JS
-	$('box').get('webkit-transform') // Safari and Chrome
-	        .get('moz-transform')    // Firefox
-	        .get('o-transform')      // Opera
+	$('box').getStyle('webkit-transform') // Safari and Chrome
+	        .getStyle('moz-transform')    // Firefox
+	        .getStyle('o-transform');      // Opera
