@@ -7,7 +7,7 @@ Inspired by http://github.com/zachstronaut/jquery-css-transform
 ![Screenshot](http://s3.amazonaws.com/ember/LBO52pd4G2TEC7xnC1vWWigoE0PozCjG_o.png)
 
 
-IE support isn't there yet
+ie support isn't there yet
 --------------------------
 
 As this post explains near the end: http://www.zachstronaut.com/posts/2009/02/22/jquery-patch-css-transform.html
