@@ -19,4 +19,18 @@ So please be patient :)
 How to Use
 ----------
 
-Coming shortly
+	#JS
+	$('box').set('transform', 'scale(2)')
+	        .get('transform');           // Returns 'scale(2)'
+			
+	$('box').setTransform('rotate(15deg)')
+	        .getTransform();              // Returns 'scale(2)'
+			
+`$('box').getStyle('transform');` unfortunately does not work. Neither does setStyle.
+I haven't found a way to extend those methods to make it work cross browser engine yet.
+So with those, you'll have to use the correct browser vendor prefixes.
+
+	#JS
+	$('box').get('webkit-transform') // Safari and Chrome
+	        .get('moz-transform')    // Firefox
+	        .get('o-transform')      // Opera
