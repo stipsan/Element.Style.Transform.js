@@ -24,6 +24,7 @@ Element.Properties.transform = {
 		var property = 'transform';
 		if(Browser.Engine.webkit) property = 'WebkitTransform';
 		if(Browser.Engine.gecko)  property = 'MozTransform';
+		if(Browser.Engine.presto) property = 'OTransform';
 		
 		this.style[property] = transform;
 		this.store('transform', transform);

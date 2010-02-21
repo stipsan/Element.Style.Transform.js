@@ -21,6 +21,7 @@
 			text-align: center;
 			-webkit-border-radius: 10px;
 			-moz-border-radius: 10px;
+			border-radius: 10px;
 		}
 		.title {
 			position: relative;
@@ -31,8 +32,8 @@
 			color: #444;
 		}
 		#shadow {
+			display: none;
 			color: transparent;
-			text-shadow: #444 0 0 5px;
 			-webkit-user-select: none;
 			cursor: default;
 			position: absolute;
@@ -42,6 +43,7 @@
 		}
 		#title {
 			color: white;
+			text-shadow: #444 0 0 5px;
 			z-index: 10;
 		}
 	</style>
@@ -52,10 +54,10 @@
 	<script type="text/javascript">
 			window.addEvent('domready', function(){
 				
-				$('test').set('transform', 'perspective(500) rotateX(20deg) rotateY(40deg) scale(.7) translateY(20px)');
-				$('title').set('transform', 'perspective(500) translate(20px)');
+				//$('test').set('transform', 'perspective(500) rotateX(20deg) rotateY(40deg) scale(.7) translateY(20px) rotate(1deg)');
+				//$('title').set('transform', 'perspective(500) translate(20px) rotate(1deg)');
 				
-				//$$("#test, #title").setTransform('rotate(10deg) scale(0.9) perspective(300) rotateY(1deg)');
+				$$("#test, .title").setTransform('rotate(10deg) scale(0.9)');
 				
 				if(window.console){
 					console.group('Get the transform property');
@@ -74,6 +76,6 @@
 	</script>
 </head>
 <body>
-	<div id="test"><h1 id="title" class="title">Resize this window to morph me.</h1><h1 id="shadow" class="title">Resize this window to morph me.</h1></div>
+	<div id="test"><h1 id="title" class="title">Lorem ipsum dolor sit amet.</h1><h1 id="shadow" class="title">Lorem ipsum dolor sit amet.</h1></div>
 </body>
 </html>
