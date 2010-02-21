@@ -31,7 +31,7 @@ Element.Properties.transform = {
 	},
 
 	get: function(){
-		return this.retrieve('transform', 1);
+		return this.retrieve('transform', '');
 	}
 
 };
