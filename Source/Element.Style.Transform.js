@@ -10,10 +10,12 @@ license: MIT-style license
 authors: Stian Didriksen
 
 requires:
-- core:1.11/String
-- core:1.11/Array
+- core:1.2.4/String
+- core:1.2.4/Array
+- more:1.2.4/Class.Refactor
 
 provides: [Element.Style.Transform]
 
 ...
 */
+
