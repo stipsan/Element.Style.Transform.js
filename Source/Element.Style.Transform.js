@@ -9,9 +9,9 @@ description:
 
 license: MIT-style license
 
-authors: Stian Didriksen
-
-contributers: Amadeus Demarzi
+authors:
+- Stian Didriksen
+- Amadeus Demarzi
 
 requires:
 - core:1.3/Browser
